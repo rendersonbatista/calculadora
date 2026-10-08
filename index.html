@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Caulculadora</h1>
+    </header>
+    <main>
+        <section id="calculadora">
+            <input class="inp" type="text" id="inp1" placeholder="Digite um número">
+            <input class="inp" type="text" id="inp2" placeholder="Digite outro número">
+            <input type="radio" name="operacao" id="somar" value="somar">
+            <label for="somar">Somar</label>
+            <input type="radio" name="operacao" id="subtrair" value="subtrair">
+            <label for="subtrair">Subtrair</label>
+            <input type="radio" name="operacao" id="multiplicar" value="multiplicar">
+            <label for="multiplicar">Multiplicar</label>
+            <input type="radio" name="operacao" id="dividir" value="dividir">
+            <label for="dividir">Dividir</label>
+            <input type="radio" name="operacao" id="todos" value="todos">
+            <label for="todos">Todos</label>
+        </section>
+
+        <section id="areaResult">
+            <p id="result">resultado: </p>
+            <button class="btn" id="verResult">
+                Ver resultado
+            </button>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Rendeson</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
